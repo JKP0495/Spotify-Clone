@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Ubuntu&display=swap');
+
+/* font-family: 'Bitter', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(254, 228, 228);
+}
+
+nav{
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+    position: sticky;
+    top: 0vh;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 80vh; */
+}
+nav span{
+    padding: 1px 10px;
+    cursor: pointer;
+}
+.logo{
+    font-family: 'Bitter', serif;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    padding: 0 5px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    width: 100vw;
+    position: sticky;
+    bottom:0vh;
+    display: flex;
+    align-items: center;
+}
+footer img{
+    width:50px;
+    padding: 0 10px;
+}
+footer span{
+    padding: 0 10px;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#scrollbar{
+    width: 80vw;
+    padding: 0 5px;
+    cursor: pointer;
+}
+footer div span img{
+    width:40px;
+    cursor: pointer;
+}
+#masterpause{
+    display: none;
+    width: 50px;
+}
+
+.container{
+    display: flex;
+    height: 78.54vh;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(bg.jpg);
+    background-position: top right;
+    margin: 10px 30px;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+}
+.songs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+}
+.playlistname{
+    font-size: 50px;
+    padding: 10px;
+}
+.songdetail{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 35px;
+    font-size: 30px;
+}
+.play{
+    width:50px;
+}
+.pause{
+    display: none;
+    width: 50px;
+}
+.cover{
+    width: 50px;
+    border-radius: 25px;
+}
+.mastersong{
+    font-size: 30px;
+
+}
+
