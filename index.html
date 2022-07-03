@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
 </head>
 <body>
     
@@ -28,71 +29,71 @@
             <span class="songdetail">
                 <img src="covers/1.jpg" class="cover">
                 <span class="songname">Song-1</span>
-                <img class="play" src="icons8-play-button-circled-96.png"></img>
+                <img id="1" class="play" src="icons8-play-button-circled-96.png"></img>
                 <img class="pause" src="icons8-pause-button-100.png"></img>
             </span>
             <span class="songdetail">
                 <img src="covers/2.jpg" class="cover">
                 <span class="songname">Song-2</span>
-                <img class="play" src="icons8-play-button-circled-96.png"></img>
+                <img id="2" class="play" src="icons8-play-button-circled-96.png"></img>
                 <img class="pause" src="icons8-pause-button-100.png"></img>
             </span>
             <span class="songdetail">
                 <img src="covers/3.jpg" class="cover">
                 <span class="songname">Song-3</span>
-                <img class="play" src="icons8-play-button-circled-96.png"></img>
+                <img id="3" class="play" src="icons8-play-button-circled-96.png"></img>
                 <img class="pause" src="icons8-pause-button-100.png"></img>
             </span>
             <span class="songdetail">
                 <img src="covers/4.jpg" class="cover">
                 <span class="songname">Song-4</span>
-                <img class="play" src="icons8-play-button-circled-96.png"></img>
+                <img id="4" class="play" src="icons8-play-button-circled-96.png"></img>
                 <img class="pause" src="icons8-pause-button-100.png"></img>
             </span>
             <span class="songdetail">
                 <img src="covers/5.jpg" class="cover">
                 <span class="songname">Song-5</span>
-                <img class="play" src="icons8-play-button-circled-96.png"></img>
+                <img id="5" class="play" src="icons8-play-button-circled-96.png"></img>
                 <img class="pause" src="icons8-pause-button-100.png"></img>
             </span>
             <span class="songdetail">
                 <img src="covers/6.jpg" class="cover">
                 <span class="songname">Song-6</span>
-                <img class="play" src="icons8-play-button-circled-96.png"></img>
+                <img id="6" class="play" src="icons8-play-button-circled-96.png"></img>
                 <img class="pause" src="icons8-pause-button-100.png"></img>
             </span>
             <span class="songdetail">
                 <img src="covers/7.jpg" class="cover">
                 <span class="songname">Song-7</span>
-                <img class="play" src="icons8-play-button-circled-96.png"></img>
+                <img id="7" class="play" src="icons8-play-button-circled-96.png"></img>
                 <img class="pause" src="icons8-pause-button-100.png"></img>
             </span>
             <span class="songdetail">
                 <img src="covers/8.jpg" class="cover">
                 <span class="songname">Song-8</span>
-                <img class="play" src="icons8-play-button-circled-96.png"></img>
+                <img id="8" class="play" src="icons8-play-button-circled-96.png"></img>
                 <img class="pause" src="icons8-pause-button-100.png"></img>
             </span>
             <span class="songdetail">
                 <img src="covers/9.jpg" class="cover">
                 <span class="songname">Song-9</span>
-                <img class="play" src="icons8-play-button-circled-96.png"></img>
+                <img id="9" class="play" src="icons8-play-button-circled-96.png"></img>
                 <img class="pause" src="icons8-pause-button-100.png"></img>
             </span>
             <span class="songdetail">
                 <img src="covers/10.jpg" class="cover">
                 <span class="songname">Song-10</span>
-                <img class="play" src="icons8-play-button-circled-96.png"></img>
+                <img id="10" class="play" src="icons8-play-button-circled-96.png"></img>
                 <img class="pause" src="icons8-pause-button-100.png"></img>
             </span>
         </span>
     </div>
 
     <footer>
-        <img src="covers/1.jpg">
-        <span class="mastersong">Song-1</span>
+        <img id='mastercover' src="covers/1.jpg">
+        <span id="mastersong">Song-1</span>
         <div>
-            <input type="range" min="0" max="100" value="5" id="myprogressbar"></input>
+            <input type="range" min="0" max="100" id="myprogressbar"></input>
             <span>
                 <img src="icons8-rewind-button-round-100.png" alt="rewind" id="backward">
                 <img src="icons8-play-button-circled-100.png" alt="play" id="masterplay">

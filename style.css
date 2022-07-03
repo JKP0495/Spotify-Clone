@@ -98,6 +98,18 @@ footer div span{
     align-items: flex-start;
     overflow-y: scroll;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
 .playlistname{
     font-size: 50px;
     padding: 10px;
@@ -126,7 +138,7 @@ footer div span{
     width: 50px;
     border-radius: 25px;
 }
-.mastersong{
+#mastersong{
     font-size: 30px;
 }
 
